@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAPOcUEGUd4tEcmYMUd6OZgwwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkN2EyYWVhMzctOWY3NC00YzdjLWE1OWEtNDgxZWU5OWUwOTcw
+    MB4XDTE5MDgyMTA4NTEwMloXDTI0MDgxOTA5NTEwMlowLzEtMCsGA1UEAxMkN2Ey
+    YWVhMzctOWY3NC00YzdjLWE1OWEtNDgxZWU5OWUwOTcwMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAqZ62Df8uUyvq3T8MaXjC2eNgAk4huS9BJrUjlUHH
+    gLdYBIW/5f3WyamKBpudnzZMlERI2NS82v5ahudf4BPj7sdiFgRYU16a8wi2ZYVu
+    eYz1yspFCw0N3aOMsuBN3j6BnToinYeJ38Qk/mZCUlNyoHD4ZDdEOb+e/R18qiC8
+    cRs7rhbhYSMd95SQ9sccGfXzvR5XpuHiI1yNhrIMpV6FCZtZvs8L8GCkXm73YywN
+    BXY8c38UkRsXHClTEJtejiIvRApbAGHzJnTD9GQVwGcFS7PEmpa4nLgb66wkCX3L
+    48rcN1TZpBvJ/6BAcXUi8wp8Y7KRFWczHgRtroi4uoa9XQIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    FOYgYlBTQ9KPI2w02nMKXXPWg/l1pWJ3vs5uAE1oCZykE8dlfh5Xd+qhGH3FphEh
+    x72glfhOZsbcGSUOprlMUrly5wLjkF759hwdg3Y/LE1BzwDMDnQsNRipawD2HfMk
+    UcQ8NivAo1NkriLjbgCqflvVX2nTAPUms2xT8ebQGMzmQyACsbPHcB4CPlg2ezOk
+    18xXnMBlYWDLcCeet3I6KAFvCfw6j62JwKpfJsJElGwBCezg+n3yf/6wBcldxcYU
+    +axZAJdDlgsbmY+LH7Cun4OjsuGAp9NBHVKFmQ710QupDkt2JtEXxX9sUzATqYXY
+    vZCmup4jUD7Lkj5odVoxzw==
+    -----END CERTIFICATE-----
+  clusterName: bunnypeppermint
+  jx-install-version: 2.0.598
+  kubeProvider: gke
+  projectID: r4ndom
+  region: ""
+  secretsLocation: vault
+  server: https://35.204.19.199
+  systemVaultName: jx-vault-bunnypeppermi
+  zone: europe-west4-b
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
